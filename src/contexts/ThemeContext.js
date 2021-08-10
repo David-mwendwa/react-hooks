@@ -5,11 +5,11 @@ export const ThemeContext = createContext();
 export class ThemeProvider extends Component {
   constructor(props) {
     super(props);
-    this.state = { isDarKMode: false };
+    this.state = { isDarkMode: false };
   }
 
   toggleTheme = () => {
-    this.setState({ isDarKMode: !this.state.isDarKMode });
+    this.setState({ isDarkMode: !this.state.isDarkMode });
   };
 
   render() {
