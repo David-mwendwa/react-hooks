@@ -46,7 +46,7 @@ class Navbar extends Component {
             </Typography>
             <Switch onChange={toggleTheme} />
             <div className={classes.grow} />
-            <div className={classes.search}>
+            <div className={classes.search}> 
               <div className={classes.searchIcon}>
                 <SearchIcon />
               </div>
